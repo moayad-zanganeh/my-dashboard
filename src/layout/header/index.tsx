@@ -7,13 +7,13 @@ import {
   CardMedia,
   InputAdornment,
 } from '@mui/material';
-import { Search, Close } from '@mui/icons-material';
 import CloseIcon from '@mui/icons-material/Close';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import RemoveIcon from '@mui/icons-material/Remove';
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { PiMagnifyingGlassThin } from 'react-icons/pi';
 
 const Header = () => {
   return (
@@ -44,7 +44,7 @@ const Header = () => {
             inputProps={{ 'aria-label': 'search' }}
             startAdornment={
               <InputAdornment position="start">
-                <Search />
+                <PiMagnifyingGlassThin />
               </InputAdornment>
             }
             style={{
@@ -52,7 +52,7 @@ const Header = () => {
               padding: '0 10px',
               borderRadius: 5,
               width: '100%',
-              maxWidth: '400px',
+              maxWidth: '500px',
             }}
           />
         </Box>
