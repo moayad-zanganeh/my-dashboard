@@ -64,7 +64,7 @@ const Header = () => {
           <Box sx={{ display: 'flex', alignItems: 'center', mx: 1 }}>
             <CardMedia
               component="img"
-              image="/images/Avatar (Fluent 2) (1).png"
+              image="/images/Avatar (Fluent 2) (2).png"
               alt="logo"
               sx={{ width: 40, height: 40 }}
             />

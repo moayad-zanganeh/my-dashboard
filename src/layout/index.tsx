@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import Sidebar from './side-bar';
 import Header from './header';
+import MainBar from '../components/main-bar';
 
 const Layout = () => {
   return (
@@ -9,8 +10,8 @@ const Layout = () => {
 
       <Box display="flex" flexGrow={1}>
         <Sidebar />
-        <Box p={3} flexGrow={1}>
-          <h1>Dashboard Content</h1>
+        <Box flexGrow={1}>
+          <MainBar />
         </Box>
       </Box>
     </Box>
